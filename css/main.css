@@ -6,6 +6,10 @@ body{
   padding: 0;
 }
 
+body:last-child{
+margin top: 30px;
+}
+
 /*clases Reutilizables*/
 .text-uppercase{
   text-transform: uppercase;
@@ -31,6 +35,7 @@ li a{
 
 header{
   position: relative;
+  margin-top: 30px;
 }
 
 nav{
@@ -47,4 +52,33 @@ section{
 div{
   display: inline-block;
   width: 33%;
+}
+
+span{
+  font-size: 60px;
+}
+
+body section{
+  margin: 30px 50px 0px;
+}
+
+img[alt="laboratoria"]{
+  width: 75px;
+}
+
+button{
+  background-color:#f9a91a;
+  color: white;
+  padding: 5px;
+  border: 0;
+  border-radius: 5px;
+  font-weight: 600px;
+}
+
+.box-header ul li{
+  margin: 0px 15px;
+}
+
+span:hover, .box-header ul li:hover{
+  color: #f9a91a;
 }
